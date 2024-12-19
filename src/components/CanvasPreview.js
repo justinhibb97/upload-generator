@@ -129,7 +129,6 @@ const CanvasPreview = ({ photo1, photo2, isVerticalLayout, addBeforeAfterText })
 
         // Right text: "Contracting"
         const contractingText = "Contracting";
-        const contractingTextWidth = ctx.measureText(contractingText).width;
         const rightTextX = centerX + logoWidth / 2 + padding;
         ctx.fillText(contractingText, rightTextX, textY);
       }

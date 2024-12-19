@@ -91,7 +91,7 @@ function App() {
       {/* Upload Section */}
       <div className="mb-4">
         <div className="mb-2">
-          <label>Upload Photo 1:</label>
+          <label>Upload Photo 1: </label>
           <input
             type="file"
             className="ml-2"
@@ -100,7 +100,7 @@ function App() {
         </div>
         {isTwoPhotos && (
           <div>
-            <label>Upload Photo 2:</label>
+            <label>Upload Photo 2: </label>
             <input
               type="file"
               className="ml-2"
@@ -116,14 +116,12 @@ function App() {
         {photo1 && (
           <img
             src={photo1}
-            alt="Preview of Photo 1"
             className="w-32 h-32 object-cover border border-gray-300 mb-2"
           />
         )}
         {isTwoPhotos && photo2 && (
           <img
             src={photo2}
-            alt="Preview of Photo 2"
             className="w-32 h-32 object-cover border border-gray-300"
           />
         )}
